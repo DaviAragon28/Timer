@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/15b0387e0a.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <nav class="nav__container--buttons">
+            <li><button class="button button--clock"><i class="fa-solid fa-clock"></i></button></li>
+            <li><button class="button button--hourglass"><i class="fa-solid fa-hourglass"></i></button></li>
+            <li><button class="button button--bell"><i class="fa-solid fa-bell"></i></button></li>
+        </nav>
+    </header>
+    <!--End Header-->
+    <!--Main-->
+    <main>
+        <section class="section__container--chronometer">
+            <h1 class="titleSection">Chronometer</h1>
+            <div class="container--time">
+                <p><span class="minutes">00</span>:<span class="seconds">00</span> </p>
+            </div>
+            <div class="container--buttons">
+                <button type="button" class="button" id="buttonStart">Start</button>
+                <button type="button" class="button" id="buttonStop">Stop</button>
+                <button type="button" class="button" id="buttonReset">Reset</button>
+            </div>
+        </section>
+    </main>
+    <!--End Main-->
+    <script src="./nodes.js"></script>
+    <script src="./navigator.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
